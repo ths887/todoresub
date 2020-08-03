@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+  <title>LOGIN & SIGN FORM</title>
+  <link href="login.css" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+<body>
+    <div class="signin">
+      <form action="#" onclick="return validation()">
+        <h2 style="color:#fff;">LogIn</h2>
+        <input  id="user" type="text" name="user" placeholder="username" autocomplete="off">
+        <span id="username"></span>
+        <br /><br />
+        <input  id="pass" type="text" name="Password"  placeholder="Password" autocomplete="off">
+        <span id="passwd"></span>
+        <br /><br />
+        <input  id="email" type="text" name="email" placeholder="Email address" autocomplete="off">
+        <span id="emails"></span>
+        <br /><br />
+        <a href="main.html"><input type="button" value="LogIn"></a><br>
+        <br>
+        <div id="container">
+        <a href="#" style="margin-right: 0px; font-size: 13px;
+         font-family: Geneva, Tahoma, sans-serif;">forgot Password</a>
+
+
+        <a href="#" style="margin-right: 0px; font-size: 13px; 
+        font-family: Geneva, Tahoma, sans-serif;">reset password?</a>
+        
+      </div>    
+      </form>
+      <script src="login.js"></script>
+      Dont have account?<a href="signup.html" style="text-decoration: none;
+      font-family:'Play'sans-serif;color: yellow;">&nbsp;Sign up</a> 
+    </div>
+</body>
+</html>
+
